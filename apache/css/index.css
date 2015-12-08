@@ -1,0 +1,85 @@
+.draggable {
+    cursor: move;
+}
+
+#left {
+}
+
+#mid {
+
+}
+
+#right {
+
+}
+
+.imgBox {
+    display: inline;
+}
+
+#countBox {
+    width: 280px;
+    margin: 0 auto;
+}
+
+#woodCount {
+    width: 100px;
+    text-align: center;
+}
+
+#rockCount {
+    width: 120px;
+    text-align: center;
+}
+
+#grassCount {
+    width: 100px;
+    text-align: center;
+}
+
+#player{
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+}
+
+#imgRow{
+    width: 310px;
+    margin: 20 auto;
+}
+
+#area {
+    margin: 20px;
+    height: auto;
+    width: auto;
+    border: dashed;
+
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    position: absolute;
+    overflow-y: auto;
+
+}
+
+#header {
+    left: 0; right: 0;
+    height: 50px; top: 0;
+    overflow: hidden; position: absolute;
+}
+
+#body {
+    left: 0; right: 0;
+    top: 50px; bottom: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#footer {
+    left: 0; right: 0;
+    height: 50px; bottom: 0;
+    overflow: hidden; position: absolute;
+
+}

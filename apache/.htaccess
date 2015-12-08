@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^(.*)\.jpg$ $1.php [nc]
+
+#order deny,allow
+#deny from all
+#allow from 69.115.129.8
